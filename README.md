@@ -19,4 +19,5 @@ Este proyecto es una recreación de una página de perfil profesional como ejerc
 - Google Fonts (Poppins)
 
 ## Se puede ver en
+ae-3-ab-perfil.vercel.app
 
