@@ -1,16 +1,7 @@
-const aceptarBtns = document.querySelectorAll('.btn-aceptar');
-const rechazarBtns = document.querySelectorAll('.btn-rechazar');
+console.log("Script cargado ❤️");
 
-aceptarBtns.forEach(btn => {
+document.querySelectorAll('button').forEach(btn => {
   btn.addEventListener('click', () => {
-    const nombre = btn.closest('.solicitud').querySelector('.nombre').textContent;
-    alert(`Has aceptado la solicitud de ${nombre}`);
-  });
-});
-
-rechazarBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const nombre = btn.closest('.solicitud').querySelector('.nombre').textContent;
-    alert(`Has rechazado la solicitud de ${nombre}`);
+    alert('¡Click detectado!');
   });
 });
