@@ -1,7 +1,13 @@
 console.log("Script cargado ❤️");
 
-document.querySelectorAll('button').forEach(btn => {
+document.querySelectorAll('.btn-aceptar').forEach(btn => {
   btn.addEventListener('click', () => {
-    alert('¡Click detectado!');
+    alert('Aceptaste una solicitud');
+  });
+});
+
+document.querySelectorAll('.btn-rechazar').forEach(btn => {
+  btn.addEventListener('click', () => {
+    alert('Rechazaste una solicitud');
   });
 });
