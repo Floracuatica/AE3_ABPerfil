@@ -1,13 +1,15 @@
-console.log("Script cargado ❤️");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Script cargado ❤️");
 
-document.querySelectorAll('.btn-aceptar').forEach(btn => {
-  btn.addEventListener('click', () => {
-    alert('Aceptaste una solicitud');
+  document.querySelectorAll('.btn-aceptar').forEach(btn => {
+    btn.addEventListener('click', () => {
+      alert('Aceptaste una solicitud');
+    });
   });
-});
 
-document.querySelectorAll('.btn-rechazar').forEach(btn => {
-  btn.addEventListener('click', () => {
-    alert('Rechazaste una solicitud');
+  document.querySelectorAll('.btn-rechazar').forEach(btn => {
+    btn.addEventListener('click', () => {
+      alert('Rechazaste una solicitud');
+    });
   });
 });
